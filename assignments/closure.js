@@ -3,8 +3,11 @@
 // Keep it simple! Remember a closure is just a function
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
-
-
+let lambdaschool = "lambda school is  online classes taught by live instructors and one-on-one mentoring, Lambda School is your gateway to a new career in just 9 months. And the best part? You won't pay a cent until you land a high-paying job.";
+function whatIslambdaschool(){
+  return lambdaschool;
+}
+console.log(whatIslambdaschool());
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
